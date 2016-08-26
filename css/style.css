@@ -1,0 +1,254 @@
+body {
+   font-family: 'Fredericka the Great', cursive;
+   font-size: 16px;
+   color: #040328;
+   background-color: #b1e77a;
+font-weight: normal;}
+
+header {
+	margin: 50px 0;
+}
+.menu {background-color: #b1e77a;
+border: 0;
+padding: 20px 0;
+font-size: 20px;
+-webkit-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+-moz-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+}
+
+.menu .container {position: relative;}
+
+
+.navbar-brand {
+	padding-right: 50px;
+
+}
+
+.navbar-brand img{
+	position: relative;
+	top: -35px;
+	width: 100px;
+	height: 90px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #040328;
+	text-transform: uppercase;
+
+}
+/*.navbar-default .navbar-nav > li.active-link > a*/
+.navbar-default .navbar-nav > li.active-link > a {
+-webkit-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+	color: #000000;
+}
+.navbar-default .navbar-nav:not(.icons) > li > a:hover {
+-webkit-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+}
+
+.globe {
+	font-size: 25px;
+	line-height: 50px;
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+	display: none;
+}
+
+
+.slogan {
+	margin-bottom: 80px;
+    }
+.slogan h1{
+	margin: 0;
+	text-align: center;
+	font-size: 33px;
+	color: #b1e77a;
+    }
+
+.row p, h4{
+    color: #b1e77a;
+    margin: 0;
+	text-align: left;
+}
+
+.row img{
+	-webkit-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+-moz-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+transition: all .5s;
+}
+.row img:hover {
+	-webkit-box-shadow: 0px -1px 20px 12px rgba(177,231,122,0.43);
+-moz-box-shadow: 0px -1px 20px 12px rgba(177,231,122,0.43);
+box-shadow: 0px -1px 20px 12px rgba(177,231,122,0.43);
+}
+
+.project p{
+	margin-bottom: 30px;
+}
+
+.card-row {
+	margin-bottom: 50px;
+}
+
+
+.slogan h4{
+    color: #b1e77a;
+    margin: 0;
+	text-align: left;
+
+}
+.pg {
+	text-align: center;
+    
+}
+.pagination> li > a, .pagination> li > span {
+	color: #000000;
+	background-color: #b1e77a;
+	border: none;
+} 
+
+
+.pagination> li > a:hover {
+color: #000000;
+-webkit-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+background-color: #b1e77a;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, 
+.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	color: #000000;
+	background-color: #b1e77a;
+-webkit-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+box-shadow: inset 3px 0px 64px 13px rgba(0,0,0,0.14);
+}
+
+.pagination {
+	-webkit-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+-moz-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+transition: all .5s;
+}
+
+footer {
+	margin-bottom: 100px;
+}
+footer hr {
+	border-color: #b1e77a;
+	-webkit-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+-moz-box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+box-shadow: -1px 5px 53px 8px rgba(0,0,0,1);
+}
+footer p{
+	color: #b1e77a;
+	font-size: 12px;
+}
+	
+/*Medium devices, Desktops */
+@media only screen and (max-width: 992px) { 
+  .navbar-brand {
+	padding-right: 10px;
+}
+
+  .icons {
+	display: none;
+	position: absolute;
+	right: 30px;
+	top: 40px;
+}
+  .icons li{ 
+  	float: none;
+  }
+  .icons li a {
+  	padding: 5px;
+  }
+
+  .globe {
+  	display: block;
+  }
+  .navbar-default .navbar-toggle:hover {
+    background-color: #b1e77a;
+
+}
+.card-row {text-align: center;}
+.card-row p,h4{text-align: center;}
+.card-row h4{padding-top: 30px;}
+.slogan {margin-bottom: 0;}
+}
+
+/* --- */
+@media only screen and (min-width: 993px) {
+	.icons {
+		display: block !important;
+	}
+} 
+
+/*Small devices, Tablets */
+@media only screen and (max-width: 767px) {
+	.menu {padding: 0;}
+	.icons {
+		display: block !important;
+		position: relative;
+		right: 0;
+		top: 0;
+	}
+	.icons li {
+		display: inline-block;
+	}
+	.globe {
+		display: none;
+	}
+	.navbar-brand img{
+	top: -15px;
+	max-height: 50px;
+	max-width: 50px;
+}
+.navbar-default .navbar-nav > li.active-link > a {
+	border-bottom: 1px solid #3d383a;
+	color: #000000;
+	background: #b1e77a;
+}
+.navbar-nav > li > a {
+	transition: all .3s;
+}
+.navbar-default .navbar-nav:not(.icons) > li > a:hover {
+	border-bottom: 1px solid #3d383a;
+	background: #b1e77a;
+}
+}
+
+
+/*Extra Small devices, Tablets, Phones */
+@media only screen and (max-width: 480px) {
+	header,
+	.slogan {
+		margin-bottom: 30px;
+	}
+	.slogan h1 {
+       font-size: 25px;
+	} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
