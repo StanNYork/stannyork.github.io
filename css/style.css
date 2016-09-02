@@ -33,6 +33,7 @@ box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.31);
     width: 120px;
     height: 90px;
     margin-right: 100px;
+    opacity: .8;
 
 }
 
@@ -71,6 +72,15 @@ box-shadow: -1px 2px 6px -1px rgba(0,0,0,0.31);
 	cursor: pointer;
 	display: none;
 }
+.row .logo_sp {
+	text-align: center;
+	;
+}
+.row .logo_sp img {
+	width: 350px;
+	height: 280px;
+    opacity: .85;
+}
 
 
 .slogan {
@@ -89,7 +99,7 @@ box-shadow: -1px 2px 6px -1px rgba(0,0,0,0.31);
 	text-align: left;
 }
 
-.row img{
+.row img:not (.logo_sp){
 	-webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.31);
 -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.31);
 box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.31);
